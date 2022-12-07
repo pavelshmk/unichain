@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+/build
+db.sqlite3
+
+/.idea
+/.env
+/venv
+/UnichainPlatforms-master
+

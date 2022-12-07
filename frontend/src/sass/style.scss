@@ -1,0 +1,193 @@
+@import url(./libs/loading.scss);
+@import url(./libs/fontello.scss);
+@import url(./libs/normalize.scss);
+@import url(./libs/jquery.mCustomScrollbar.scss);
+@import url(../../node_modules/react-toastify/scss/main.scss);
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+    background: #ede7f6;
+}
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #7036b6 #ede7f6;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ede7f6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #7036b6;
+    transition: all 0.5s;
+    border: 2px solid #ede7f6;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    background: linear-gradient(0deg, rgba(112, 54, 182, 0.05), rgba(112, 54, 182, 0.05)), #FFFFFF;
+}
+
+html {
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    outline: none;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    overflow: hidden;
+    min-height: 100vh;
+    position: relative;
+}
+
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+i{
+    font-style: normal;
+}
+
+ul li,
+ol li {
+    margin: 0;
+}
+
+input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+
+input:not([type=checkbox]):not([type=radio]),
+textarea, 
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.clearfix {
+    &:after {
+        content: " ";
+        visibility: hidden;
+        display: block;
+        font-size: 0;
+        clear: both;
+        height: 0;
+    }
+}
+
+input{
+    -webkit-appearance: none;   
+    appearance: none;   
+}
+
+a {
+    cursor: pointer;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+@media (min-width: 768px) {
+
+    .container {
+        width: 648px;
+        padding: 0;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .container {
+        width: 864px;
+    }
+
+}
+
+@media (min-width: 1280px) {
+
+    .container {
+        width: 1080px;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    .container {
+        width: 1240px;
+    }
+
+}
+
+
+@media (min-width: 1600px) {
+
+    
+
+}
+
+[disabled], .disabled {
+    opacity: .5;
+    pointer-events: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield !important;
+}

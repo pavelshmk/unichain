@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-environ = "*"
+django-redis = "*"
+psycopg2-binary = "*"
+uwsgi = "*"
+django-cors-headers = "*"
+pillow = "*"
+web3 = "*"
+django-dynamic-preferences = "*"
+django-dbsettings = "*"
+django-admin-actions = "*"
+daphne = "*"
+trx-utils = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
